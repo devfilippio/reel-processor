@@ -1,0 +1,6 @@
+ffmpeg
+ffmpeg.exe
+*.mp4
+*.mov
+*_processed.*
+Reel Processor.app/
