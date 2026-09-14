@@ -11,22 +11,13 @@ libx264 CRF 20, preset medium, High@4.1 · AAC 160k 44.1 kHz · +faststart · bi
 
 Результат кладётся рядом с исходником под именем `имя_processed.mp4`.
 
-## Windows
+## Запуск (Windows)
 
 1. Положить `ffmpeg.exe` в папку с файлами (сборки: https://www.gyan.dev/ffmpeg/builds/)
 2. Запустить `Reel Processor.bat`
 3. Перетащить ролики в окно (или нажать «Выбрать файлы»)
 
 Окно на PowerShell + WinForms, ничего устанавливать не нужно. `gui.ps1` должен лежать рядом с `.bat`.
-
-## macOS
-
-```bash
-bash make-mac-app.sh
-```
-
-Скрипт при необходимости скачает статический ffmpeg и соберёт рядом `Reel Processor.app`.
-Дальше — перетаскивать ролики на иконку приложения.
 
 ## Раздача
 
